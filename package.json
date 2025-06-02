@@ -1,0 +1,53 @@
+{
+  "name": "payloadcms-compiler-check",
+  "version": "1.1.0",
+  "description": "Check for common PayloadCMS build and usage issues",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "payloadcms-compiler-check": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "start": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "payloadcms",
+    "cli",
+    "compiler",
+    "check",
+    "collections",
+    "consistency",
+    "cms"
+  ],
+  "author": "Daniel Li",
+  "license": "ISC",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/payloadcms-compiler-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/payloadcms-compiler-check/issues"
+  },
+  "homepage": "https://github.com/your-username/payloadcms-compiler-check#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.27.2",
+    "@babel/traverse": "^7.27.1",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "fast-glob": "^3.3.3",
+    "globby": "^14.1.0",
+    "ts-morph": "^26.0.0"
+  },
+  "devDependencies": {
+    "@types/babel__traverse": "^7.20.7",
+    "@types/node": "^22.15.21",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
