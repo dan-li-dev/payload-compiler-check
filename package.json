@@ -26,12 +26,12 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/payloadcms-compiler-check.git"
+    "url": "https://github.com/dan-li-dev/payloadcms-compiler-check.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/payloadcms-compiler-check/issues"
+    "url": "https://github.com/dan-li-dev/payloadcms-compiler-check/issues"
   },
-  "homepage": "https://github.com/your-username/payloadcms-compiler-check#readme",
+  "homepage": "https://github.com/dan-li-dev/payloadcms-compiler-check#readme",
   "engines": {
     "node": ">=18"
   },

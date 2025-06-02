@@ -68,7 +68,7 @@ Diagnostics:
 
 ## Contributing
 
-#### Fork the repository: https://github.com/your-username/payloadcms-compiler-check
+#### Fork the repository: https://github.com/dan-li-dev/payloadcms-compiler-check
 
 #### Create a feature branch: git checkout -b feature/add-collection-check
 
